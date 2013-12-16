@@ -24,10 +24,10 @@ BRANCHES = \
 SYM_LINKS = \
 	IpolLabs,Javascript \
 	IpolPlugins,IpolPlugins \
-	IpolPlugins/IpolACEPlugin/OnlinePugin/IpolACE,software_library/IpolLabs/plugins/IpolACE \
-	IpolPlugins/IpolSCAPlugin/OnlinePugin/IpolSCA,software_library/IpolLabs/plugins/IpolSCA \
-	IpolPlugins/IpolLSDPlugin/OnlinePugin/IpolLSD,software_library/IpolLabs/plugins/IpolLSD \
-	IpolPlugins/IpolTVDPlugin/OnlinePugin/IpolTVD,software_library/IpolLabs/plugins/IpolTVD \
+	IpolPlugins/IpolACEPlugin/OnlinePlugin/IpolACE,software_library/IpolLabs/plugins/IpolACE \
+	IpolPlugins/IpolSCAPlugin/OnlinePlugin/IpolSCA,software_library/IpolLabs/plugins/IpolSCA \
+	IpolPlugins/IpolLSDPlugin/OnlinePlugin/IpolLSD,software_library/IpolLabs/plugins/IpolLSD \
+	IpolPlugins/IpolTVDPlugin/OnlinePlugin/IpolTVD,software_library/IpolLabs/plugins/IpolTVD \
 	Soja,software_library/IpolLabs/ext/Soja \
 	Soda,software_library/IpolLabs/ext/Soda \
 	Celo,software_library/Soda/ext/Celo \
