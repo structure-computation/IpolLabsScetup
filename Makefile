@@ -27,7 +27,7 @@ SYM_LINKS = \
 	IpolPlugins/IpolACEPlugin/OnlinePugin/IpolACE,software_library/IpolLabs/plugins/IpolACE \
 	IpolPlugins/IpolSCAPlugin/OnlinePugin/IpolSCA,software_library/IpolLabs/plugins/IpolSCA \
 	IpolPlugins/IpolLSDPlugin/OnlinePugin/IpolLSD,software_library/IpolLabs/plugins/IpolLSD \
-	IpolPlugins/IpolTVDeconvolutionPlugin/OnlinePugin/IpolTVDeconvolution,software_library/IpolLabs/plugins/IpolTVDeconvolution \
+	IpolPlugins/IpolTVDPlugin/OnlinePugin/IpolTVD,software_library/IpolLabs/plugins/IpolTVD \
 	Soja,software_library/IpolLabs/ext/Soja \
 	Soda,software_library/IpolLabs/ext/Soda \
 	Celo,software_library/Soda/ext/Celo \
@@ -48,10 +48,10 @@ all: compilation
 
 compilation: sym_links
 	which metil_comp || make -C software_library/Metil install
-	make -C software_library/IpolPlugins/IpolACE
-	make -C software_library/IpolPlugins/IpolSCA
-	make -C software_library/IpolPlugins/IpolLSD
-	make -C software_library/IpolPlugins/IpolTVDeconvolution
+	make -C software_library/IpolPlugins/IpolACEPlugin
+	make -C software_library/IpolPlugins/IpolSCAPlugin
+	make -C software_library/IpolPlugins/IpolLSDPlugin
+	make -C software_library/IpolPlugins/IpolTVDPlugin
 	make -C software_library/IpolLabs Soja_javascripts
 	
 	
