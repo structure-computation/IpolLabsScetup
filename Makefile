@@ -33,7 +33,7 @@ SYM_LINKS = \
 	Soda,software_library/IpolLabs/ext/Soda \
 	Celo,software_library/Soda/ext/Celo \
 	Sipe,software_library/Soda/ext/Sipe \
-	LMTpp,software_library/IpolPlugins/GlobalManagerPlugin/ServerPlugin/LMT \
+	LMTpp,software_library/IpolPlugins/GlobalManager/ServerPlugin/LMT \
 	PrepArg,software_library/Soda/ext/PrepArg
 
 	
