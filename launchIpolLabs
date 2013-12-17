@@ -6,7 +6,7 @@
 ##### LES PATHS DOIVENT COMPORTER UN / A LA FIN  #####
 ######################################################
 path_EcosystemScience="./Javascript/"
-path_GlobalManager="./IpolPlugins/GlobalManagerPlugin/"
+path_GlobalManager="./IpolPlugins/GlobalManager/"
 ######################################################
 
 
