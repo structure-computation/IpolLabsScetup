@@ -36,6 +36,12 @@ SYM_LINKS = \
 	LMTpp,software_library/IpolPlugins/GlobalManager/ServerPlugin/LMT \
 	PrepArg,software_library/Soda/ext/PrepArg
 
+LD = \
+	libfftw3-dev \
+	libjpeg-dev \
+	libpng12-dev \
+	libtiff4-dev
+	
 	
 	
 SHELL = /bin/bash
@@ -99,8 +105,15 @@ branches: prereq
 		git checkout -b $$B origin/$$B 2> /dev/null || git checkout $$B; \
 		popd; \
 	done
+
+ld_libraries: prereq
+	# ========================= LD LIBRARIES =========================
+	for i in ${LD}; do \
+		R=`echo $$i | sed 's/\\(.*\\),.*/\\1/'`; \
+		which $$R || sudo apt-get install $$R; \
+	done
 	
-sym_links: prereq
+sym_links: ld_libraries
 	# ========================= SYMBOLIC LINKS =========================
 	for i in ${SYM_LINKS}; do \
 		R=`echo $$i | sed 's/\\(.*\\),.*/\\1/'`; \
