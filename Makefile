@@ -40,7 +40,21 @@ LD = \
 	libfftw3-dev \
 	libjpeg-dev \
 	libpng12-dev \
-	libtiff4-dev
+	libtiff4-dev \
+	scons \
+	gcc \
+	g++ \
+	python-dev \
+	libxml2-dev \
+	libpython-devel \
+	python-all-dev \
+	libreadline-dev \
+	cmake \
+	libqt4-core \
+	qt4-qmake \
+	libhdf5-serial-dev \
+	qtcreator \
+	coffeescript
 	
 	
 	
