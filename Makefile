@@ -51,6 +51,7 @@ LD = \
 	libreadline-dev \
 	cmake \
 	libqt4-core \
+	libqt4-dev \
 	qt4-qmake \
 	libhdf5-serial-dev \
 	qtcreator \
