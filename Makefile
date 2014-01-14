@@ -9,7 +9,8 @@ LIBRARIES = \
 	Sipe \
 	PrepArg \
 	IpolLabs \
-	IpolPlugins
+	IpolPlugins \
+	computation-lab	
 	
 BRANCHES = \
 	IpolLabs,master \
@@ -34,7 +35,8 @@ SYM_LINKS = \
 	Celo,software_library/Soda/ext/Celo \
 	Sipe,software_library/Soda/ext/Sipe \
 	LMTpp,software_library/IpolPlugins/GlobalManager/ServerPlugin/LMT \
-	PrepArg,software_library/Soda/ext/PrepArg
+	PrepArg,software_library/Soda/ext/PrepArg \
+	IpolLabs/html,software_library/computation-lab/public/javascripts/IpolLabs
 
 LD = \
 	libfftw3-dev \
